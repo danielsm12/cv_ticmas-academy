@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+     <!-- BARRA DE NAVEGACIÓN-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/bootstrap_demo.html">Curriculum Vitae</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#datos_personales">Datos personales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#estudios">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exp_laboral">Experiencia laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  SCROLLSPY  -->
+
+     <div class="row">
+      <div class="col-4">
+        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#datos_personales">Datos personales</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+              <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Item 2</a>
+            <a class="nav-link" href="#item-3">Item 3</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+              <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+            </nav>
+          </nav>
+        </nav>
+      </div>
+    </div>
+
+    <!-- CONTENEDOR 1/ DATOS PERSONALES-->
+
+    <div class="container-fluid my-2" id="datos_personales">
+      <h1>Datos personales</h1>
+      <div class="row">
+        <div class="col">
+          <table>
+            <tbody>
+              <tr>
+                <td> <strong> <u>Nombres:</u> </strong> Daniel Enrique</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Apellidos:</u> </strong> San Martín</td>
+              </tr>
+              <tr>
+                <td><strong> <u><abbr title="Documento Nacional de Identidad">DNI:</abbr></u> </strong> 37681704</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Edad:</u> </strong> 29 años</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Fecha de nacimiento:</u> </strong> 08/05/1993</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Nacionalidad:</u> </strong> Argentino</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Hijos:</u> </strong> No</td>
+              </tr>
+              <tr>
+                <td><strong> <u>Estado civil:</u> </strong> Soltero</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- CONTENEDOR 2/ ESTUDIOS-->
+
+    <div class="container-fluid">
+
+
+    </div>
+
+  </body>
+</html>
